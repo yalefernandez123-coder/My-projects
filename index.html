@@ -1,9 +1,11 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
   <title>Yalena Fernández | Data Analytics Portfolio</title>
 
@@ -76,6 +78,15 @@
       font-size: 55px;
     }
 
+    .project-image {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      background: white;
+      padding: 10px;
+      display: block;
+    }
+
     .card-content {
       padding: 25px;
     }
@@ -144,6 +155,7 @@
 
 <body>
 
+<!-- HEADER -->
 <header>
   <h1>Yalena Fernández</h1>
 
@@ -172,10 +184,14 @@
       <div class="card-content">
         <h2>KNN Imputation in R</h2>
 
-        <p>Missing Data Imputation using K-Nearest Neighbors.</p>
+        <p>
+          Missing Data Imputation using
+          K-Nearest Neighbors.
+        </p>
 
         <p>
-          5-Fold Cross-Validation and RMSE Evaluation.
+          5-Fold Cross-Validation and
+          RMSE Evaluation.
         </p>
 
         <a class="button"
@@ -198,8 +214,8 @@
 
         <p>
           Missing value imputation, one-hot encoding,
-          normalization, standardization and
-          train-test splitting.
+          normalization, standardization,
+          and train-test splitting.
         </p>
 
         <a class="button"
@@ -261,19 +277,47 @@
 
     <!-- PROJECT 5: KNIME -->
     <div class="card">
-      <div class="visual">⚙️</div>
+
+      <img
+        class="project-image"
+        src="KNIME_Workflow.png"
+        alt="KNIME Data Processing Workflow"
+      >
 
       <div class="card-content">
-        <h2>Data Preparation</h2>
+        <h2>KNIME - Data Processing & Automation</h2>
 
-        <p>KNIME Workflows</p>
+        <p>ETL & Workflow Automation</p>
 
         <p>
-          Data cleaning, transformation,
-          and preparation using KNIME.
+          Developed a data processing workflow
+          using KNIME Analytics Platform.
         </p>
 
-        <p>Project details coming soon.</p>
+        <p>
+          Automated Excel file ingestion using loops,
+          data consolidation, column transformations,
+          date extraction, conditional rules,
+          and duplicate detection.
+        </p>
+
+        <p>
+          Includes Excel export and
+          Google Drive integration.
+        </p>
+
+        <p>
+          <strong>Tools:</strong>
+          KNIME, Excel, CSV, ETL,
+          Google Drive, Data Transformation.
+        </p>
+
+        <a class="button"
+           href="https://github.com/yalefernandez123-coder/My-projects/blob/main/KNIME_Data_Processing.knwf"
+           target="_blank"
+           rel="noopener noreferrer">
+          View KNIME Workflow
+        </a>
       </div>
     </div>
 
