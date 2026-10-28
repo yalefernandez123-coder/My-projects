@@ -56,7 +56,7 @@ Clean, transform, and prepare raw data for predictive modeling while applying ap
 - Train-Test Splitting
 - Data Leakage Awareness
 - 
-Project 3: Iris Species Classification Using Support Vector Machines (SVM)
+##Project 3: Iris Species Classification Using Support Vector Machines (SVM)
 Overview
 This project demonstrates a supervised machine learning classification model built in R using a Support Vector Machine (SVM) with a radial basis function (RBF) kernel. The goal is to predict iris flower species based on four measurements.
 Dataset
