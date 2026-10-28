@@ -109,3 +109,11 @@ Coming soon:
 - Tableau Analytics
 - KNIME Data Preparation
 - Predictive Modeling in R
+
+ ## KNIME – Data Processing & Workflow Automation
+
+Developed a data processing workflow using KNIME Analytics Platform, including Excel data import, column filtering, data type conversion, feature engineering, rule-based transformations, and date extraction.
+
+The project also incorporates automated file processing with loops, data export to CSV and Excel, and Google Drive integration.
+
+Tools: KNIME, Excel, CSV, Google Drive, ETL, Data Transformation.
