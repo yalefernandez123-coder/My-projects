@@ -104,6 +104,44 @@ References
 These techniques can be applied to customer analytics, financial datasets, predictive modeling, and business intelligence projects.
 ## Additional Projects
 
+## Power BI – Sales & Business Performance Dashboard
+
+Category: Business Intelligence & Data Visualization
+
+Developed a multi-page Power BI dashboard to analyze sales performance, profitability, product categories, shipping operations, and sales forecasting.
+
+Key Features:
+
+Sales and profit KPI monitoring
+
+Profit margin analysis
+
+Product and shipping analysis
+
+Customer and product segmentation
+
+Product profit-loss analysis
+
+Interactive filters
+
+Sales forecasting with confidence intervals
+
+Tools: Power BI, Business Intelligence, Data Visualization, Forecasting
+
+Sales Analysis
+
+
+
+Product & Shipping Analysis
+
+
+
+Product Profit-Loss Analysis
+
+
+
+Sales Forecasting
+
 Coming soon:
 - Power BI Dashboards
 - Tableau Analytics
