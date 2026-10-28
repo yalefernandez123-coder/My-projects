@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yalena Fernández's portfolio of data analytics, machine learning, KNIME and Power BI projects.">
+  <title>Yalena Fernández | Data Analytics Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #0f172a; color: #f8fafc; line-height: 1.6; }
+    header { text-align: center; padding: 70px 20px; background: linear-gradient(135deg, #1e293b, #172554); }
+    header h1 { font-size: 42px; margin-bottom: 10px; }
+    header p { color: #cbd5e1; font-size: 18px; }
+    main { max-width: 1100px; margin: auto; padding: 40px 20px; }
+    .section-title { text-align: center; font-size: 30px; margin-bottom: 35px; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+    .card { background: #1e293b; border-radius: 15px; overflow: hidden; border: 1px solid #334155; transition: transform .3s, box-shadow .3s; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,.3); }
+    .visual { height: 130px; background: linear-gradient(135deg, #2563eb, #7c3aed); display: flex; justify-content: center; align-items: center; font-size: 55px; }
+    .project-image { width: 100%; height: 200px; object-fit: contain; background: white; padding: 10px; display: block; }
+    .card-content { padding: 25px; }
+    .card-content h2 { font-size: 21px; margin-top: 0; }
+    .card-content p { color: #cbd5e1; font-size: 14px; }
+    .button { display: inline-block; margin-top: 15px; padding: 10px 18px; background: #3b82f6; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 14px; }
+    .button:hover { background: #2563eb; }
+    .about { margin-top: 70px; background: #1e293b; padding: 35px; border-radius: 15px; border: 1px solid #334155; }
+    .about h2 { margin-top: 0; }
+    .about p { color: #cbd5e1; }
+    footer { text-align: center; padding: 25px; background: #020617; color: #94a3b8; font-size: 14px; }
+    @media(max-width:600px) { header h1 { font-size:30px; } .section-title { font-size:25px; } }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Yalena Fernández</h1>
+  <p>Investment Banking Associate | Business Analytics | Data Analytics</p>
+  <p>R Programming • Machine Learning • Power BI • KNIME • Data Visualization</p>
+</header>
+<main>
+  <h2 class="section-title">My Projects</h2>
+  <div class="projects">
+    <!-- PROJECT 1: KNN -->
+    <div class="card">
+      <div class="visual">🧠</div>
+      <div class="card-content">
+        <h2>KNN Imputation in R</h2>
+        <p>Missing Data Imputation using K-Nearest Neighbors.</p>
+        <p>5-Fold Cross-Validation and RMSE Evaluation.</p>
+        <a class="button" href="https://github.com/yalefernandez123-coder/My-projects/blob/main/Proyecto_1_KNN.R" target="_blank" rel="noopener noreferrer">View R Code</a>
+      </div>
+    </div>
+    <!-- PROJECT 2: DATA PREPROCESSING -->
+    <div class="card">
+      <div class="visual">🧹</div>
+      <div class="card-content">
+        <h2>Data Preprocessing in R</h2>
+        <p>Data Cleaning &amp; Feature Engineering</p>
+        <p>Missing value imputation, one-hot encoding, normalization, standardization, and train-test splitting.</p>
+        <a class="button" href="https://github.com/yalefernandez123-coder/My-projects/blob/main/Data_Preprocessing.R" target="_blank" rel="noopener noreferrer">View R Code</a>
+      </div>
+    </div>
+    <!-- PROJECT 3: SVM -->
+    <div class="card">
+      <div class="visual">🤖</div>
+      <div class="card-content">
+        <h2>SVM - Iris Classification</h2>
+        <p>Supervised Machine Learning in R</p>
+        <p>Iris species classification using Support Vector Machines with a radial kernel.</p>
+        <p>Model training, feature scaling, confusion matrix evaluation, predictions, and decision boundary visualization.</p>
+        <a class="button" href="https://github.com/yalefernandez123-coder/My-projects/blob/main/Modelo%20svm.R" target="_blank" rel="noopener noreferrer">View R Code</a>
+      </div>
+    </div>
+    <!-- PROJECT 4: HEALTHCARE ANALYTICS -->
+    <div class="card">
+      <div class="visual">🏥</div>
+      <div class="card-content">
+        <h2>Healthcare Analytics</h2>
+        <p>Tableau Dashboard</p>
+        <p>Healthcare indicators, data visualization, and trend analysis.</p>
+        <p>Project details coming soon.</p>
+      </div>
+    </div>
+    <!-- PROJECT 5: KNIME -->
+    <div class="card">
+      <img class="project-image" src="KNIME_Workflow.png" alt="KNIME data processing workflow" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="visual" style="display:none">⚙️</div>
+      <div class="card-content">
+        <h2>KNIME - Data Processing &amp; Automation</h2>
+        <p>ETL &amp; Workflow Automation</p>
+        <p>Automated Excel file ingestion using loops, data consolidation, column transformations, date extraction, conditional rules, and duplicate detection.</p>
+        <p>Includes Excel export and Google Drive integration.</p>
+        <p><strong>Tools:</strong> KNIME, Excel, CSV, ETL, Google Drive.</p>
+        <a class="button" href="https://github.com/yalefernandez123-coder/My-projects/blob/main/KNIME_Data_Processing.knwf" target="_blank" rel="noopener noreferrer">View KNIME Workflow</a>
+      </div>
+    </div>
+    <!-- PROJECT 6: POWER BI -->
+    <div class="card">
+      <img class="project-image" src="PowerBI_Dashboard.png" alt="Power BI sales and business performance dashboard screenshot" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="visual" style="display:none">📊</div>
+      <div class="card-content">
+        <h2>Power BI - Sales &amp; Business Performance</h2>
+        <p>Interactive Business Intelligence Dashboard</p>
+        <p>Multi-page report covering sales performance, profitability, customer segments, product and shipping analysis, product profit/loss, and sales forecasting.</p>
+        <p>Features sales, profit, profit margin and discount KPIs; interactive filters for year, country, customer segment, and product category.</p>
+        <p><strong>Tools:</strong> Power BI, Data Modeling, Business Intelligence, Data Visualization.</p>
+        <a class="button" href="https://github.com/yalefernandez123-coder/My-projects/blob/main/Final%20dashboard%20pober%20bi%202.pbix" target="_blank" rel="noopener noreferrer">View Power BI Project</a>
+      </div>
+    </div>
+  </div>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Investment Banking Associate with a background in Agricultural Economics and Business Analytics.</p>
+    <p>Interested in data-driven decision-making, financial analysis, predictive modeling, and business intelligence.</p>
+    <a class="button" href="https://github.com/yalefernandez123-coder" target="_blank" rel="noopener noreferrer">View My GitHub</a>
+  </section>
+</main>
+<footer>© 2026 Yalena Fernández | Data Analytics Portfolio</footer>
+</body>
+</html>
